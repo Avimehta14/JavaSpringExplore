@@ -1,13 +1,13 @@
-package com.myspring;
+package com.myjavaspring.springcore;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class MyspringApplication {
+public class SpringcoreApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(MyspringApplication.class, args);
+		SpringApplication.run(SpringcoreApplication.class, args);
 	}
 
 }
