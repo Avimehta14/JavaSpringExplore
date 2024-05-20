@@ -12,7 +12,7 @@ public class CoachController {
     private final Coach myCoach;
 
     @Autowired
-    public CoachController(@Qualifier("tennisCoach") Coach theCoach)
+    public CoachController(@Qualifier("swim") Coach theCoach)
     {
         myCoach = theCoach;
     }
