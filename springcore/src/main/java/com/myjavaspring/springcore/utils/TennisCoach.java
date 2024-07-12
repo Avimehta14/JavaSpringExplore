@@ -6,6 +6,8 @@ import org.springframework.stereotype.Component;
 public class TennisCoach implements Coach{
     @Override
     public String getDailyWorkout() {
+
+        System.out.println("HI Tennis");
         return "Tennis is a waste sport";
     }
 }
